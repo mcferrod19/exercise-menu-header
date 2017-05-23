@@ -1,0 +1,10 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.mainlogo {
+  width: 10em; }
+
+.menulogo {
+  width: 3em;
+  margin: 3em; }
