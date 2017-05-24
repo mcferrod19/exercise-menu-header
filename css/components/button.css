@@ -10,27 +10,26 @@ span {
   border-radius: 2px; }
 
 .buttonMenu {
-  width: 100px;
-  height: 100px;
-  margin: 50px auto;
+  width: 6em;
+  height: 5em;
   position: relative;
   position: relative;
   cursor: pointer;
-  background: rgba(255, 255, 255, 0.4);
-  border-radius: 5px; }
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: .3em; }
   .buttonMenu:hover {
-    background: rgba(255, 255, 255, 0.8); }
+    background-color: rgba(255, 255, 255, 0.2); }
   .buttonMenu #hamburger {
     position: absolute;
     height: 100%;
     width: 100%; }
     .buttonMenu #hamburger span {
-      width: 60px;
-      height: 4px;
+      width: 4em;
+      height: .32em;
       position: relative;
-      top: 24px;
-      left: 20px;
-      margin: 10px 0; }
+      margin: 1em;
+      margin-left: auto;
+      margin-right: auto; }
       .buttonMenu #hamburger span:nth-child(1) {
         -webkit-transition-delay: .5s;
                 transition-delay: .5s; }
@@ -42,24 +41,25 @@ span {
                 transition-delay: .75s; }
   .buttonMenu #cross {
     position: absolute;
-    height: 100%;
-    width: 100%;
+    height: 5em;
+    width: 5em;
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg); }
     .buttonMenu #cross span:nth-child(1) {
       height: 0%;
-      width: 4px;
+      width: 6%;
       position: absolute;
-      top: 10%;
-      left: 48px;
+      top: 3%;
+      left: 55%;
+      right: auto;
       -webkit-transition-delay: 0s;
               transition-delay: 0s; }
     .buttonMenu #cross span:nth-child(2) {
       width: 0%;
-      height: 4px;
+      height: 6%;
       position: absolute;
-      left: 10%;
-      top: 48px;
+      left: 18%;
+      top: 40%;
       -webkit-transition-delay: .25s;
               transition-delay: .25s; }
 

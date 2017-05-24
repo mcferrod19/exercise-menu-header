@@ -3,8 +3,7 @@
           box-sizing: border-box; }
 
 .menulogo {
-  width: 7.5em;
-  height: 5.5em;
+  width: 10em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
