@@ -42,7 +42,6 @@
   display: none; }
 
 .slideout {
-  background-color: #70c1c1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,5 +54,13 @@
           align-items: flex-end; }
 
 li {
-  text-align: justify;
-  margin-right: 5%; }
+  background-color: #70c1c1;
+  width: 100%;
+  text-align: center;
+  border: .1em solid white;
+  top: 3em;
+  border-radius: .5em; }
+
+li:focus {
+  -webkit-transition: all 300s ease 1s;
+  transition: all 300s ease 1s; }
