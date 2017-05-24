@@ -1,0 +1,32 @@
+
+.line {
+  background-color: #fff;
+  width: 6em;
+  height: 0.1em;
+  padding: 0.3em;
+  border-radius: 0.5em;
+}
+.line:hover{
+  width: 6em;
+  height: 0.1em;
+  padding: 0.3em;
+  transition: transform 800ms;
+  transform: rotate(90deg);
+
+}
+
+.buttonMenu{
+  color: none;
+  background-color: inherit;
+  border: 1px solid white;
+  width: 6.5em;
+  height: 6.5em;
+  display: flex;
+  align-self: center;
+  width: 5em;
+  height: 5em;
+  float: right;
+  margin: 0 10px;
+}
+
+.buttonMenu:focus {outline:0;}

@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Ejercicio de</title>
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
+<head>
+  <meta charset="utf-8">
+  <title>Header</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+</head>
 
-  <header class="containerheader">
-    <div class="containerlogo">
-      <a href="https://www.google.es/"><img class="mainlogo" src="images/wellcome.png" alt="logo"></a>
+<header>
+  <div class="container">
+    <div class="menu">
+      <img class="menulogo" src="images/wellcome.png" alt="">
+
+      <button class="buttonMenu" type="button" name="button">
+        <span class=line></span>
+      </button>
     </div>
+  </div>
 
-  </span class="containerhome">
-<ul class="menu">
-  <li><a class="stylemenu" href="#">Home</a></li>
-  <li><a class="stylemenu" href="#">About</a></li>
-  <li><a class="stylemenu" href="#">Portfolio</a></li>
-  <li><a class="stylemenu" href="#">Contact</a></li>
-</ul>
-
-
-    <div class="containermenu">
-    <a href="https://www.google.es/"><img class="menulogo" src="images/menulogo.png" alt="logo"></a>
+    <div class="buttonContainerMenu hidden">
+      <ul class="slideout">
+      <li>Menu Item</li>
+      <li>Quiénes somos</li>
+      <li>Servicios</li>
+    </ul>
     </div>
-  </header>
+</header>
+<body>
 
-  <body>
 
-  </body>
+<script src="js/header.js" charset="utf-8"></script>
+</body>
 </html>

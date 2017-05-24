@@ -1,14 +1,27 @@
-*{
-  box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
-.containerhome{
-margin: 0;
-	padding: 0;
-	border: 0;
-	vertical-align: baseline;
+.container{
+  display: flex;
+
 }
 
-.containerheader{
-  display: block;
+.menu {
+  display: flex;
+  background: rgb(112, 193, 193);
+  color: #fff;
+  height: 8em;
+  padding: 2em;
+  width: 100%;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  text-align: justify;
+}
+.hidden{
+  display: none;
 }

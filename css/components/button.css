@@ -1,0 +1,36 @@
+.line {
+  background-color: #fff;
+  width: 6em;
+  height: 0.1em;
+  padding: 0.3em;
+  border-radius: 0.5em; }
+
+.line:hover {
+  width: 6em;
+  height: 0.1em;
+  padding: 0.3em;
+  -webkit-transition: -webkit-transform 800ms;
+  transition: -webkit-transform 800ms;
+  transition: transform 800ms;
+  transition: transform 800ms, -webkit-transform 800ms;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg); }
+
+.buttonMenu {
+  color: none;
+  background-color: inherit;
+  border: 1px solid white;
+  width: 6.5em;
+  height: 6.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 5em;
+  height: 5em;
+  float: right;
+  margin: 0 10px; }
+
+.buttonMenu:focus {
+  outline: 0; }
