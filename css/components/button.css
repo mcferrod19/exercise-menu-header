@@ -82,3 +82,12 @@ span {
   width: 80%;
   -webkit-transition-delay: .375s;
           transition-delay: .375s; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+.buttonContainerMenu {
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s; }
