@@ -4,9 +4,12 @@
 
 .container{
   display: flex;
-
+  justify-content: space-between;
 }
 
+.buttonMenu{
+  display: flex;
+}
 .menu {
   display: flex;
   background: rgb(112, 193, 193);

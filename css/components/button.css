@@ -1,36 +1,84 @@
-.line {
-  background-color: #fff;
-  width: 6em;
-  height: 0.1em;
-  padding: 0.3em;
-  border-radius: 0.5em; }
+* {
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
-.line:hover {
-  width: 6em;
-  height: 0.1em;
-  padding: 0.3em;
-  -webkit-transition: -webkit-transform 800ms;
-  transition: -webkit-transform 800ms;
-  transition: transform 800ms;
-  transition: transform 800ms, -webkit-transform 800ms;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg); }
+span {
+  display: block;
+  background-color: white;
+  border-radius: 2px; }
 
 .buttonMenu {
-  color: none;
-  background-color: inherit;
-  border: 1px solid white;
-  width: 6.5em;
-  height: 6.5em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-item-align: center;
-      align-self: center;
-  width: 5em;
-  height: 5em;
-  float: right;
-  margin: 0 10px; }
+  width: 100px;
+  height: 100px;
+  margin: 50px auto;
+  position: relative;
+  position: relative;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 5px; }
+  .buttonMenu:hover {
+    background: rgba(255, 255, 255, 0.8); }
+  .buttonMenu #hamburger {
+    position: absolute;
+    height: 100%;
+    width: 100%; }
+    .buttonMenu #hamburger span {
+      width: 60px;
+      height: 4px;
+      position: relative;
+      top: 24px;
+      left: 20px;
+      margin: 10px 0; }
+      .buttonMenu #hamburger span:nth-child(1) {
+        -webkit-transition-delay: .5s;
+                transition-delay: .5s; }
+      .buttonMenu #hamburger span:nth-child(2) {
+        -webkit-transition-delay: .625s;
+                transition-delay: .625s; }
+      .buttonMenu #hamburger span:nth-child(3) {
+        -webkit-transition-delay: .75s;
+                transition-delay: .75s; }
+  .buttonMenu #cross {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg); }
+    .buttonMenu #cross span:nth-child(1) {
+      height: 0%;
+      width: 4px;
+      position: absolute;
+      top: 10%;
+      left: 48px;
+      -webkit-transition-delay: 0s;
+              transition-delay: 0s; }
+    .buttonMenu #cross span:nth-child(2) {
+      width: 0%;
+      height: 4px;
+      position: absolute;
+      left: 10%;
+      top: 48px;
+      -webkit-transition-delay: .25s;
+              transition-delay: .25s; }
 
-.buttonMenu:focus {
-  outline: 0; }
+#menu-toggle.open #hamburger span {
+  width: 0%; }
+  #menu-toggle.open #hamburger span:nth-child(1) {
+    -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
+  #menu-toggle.open #hamburger span:nth-child(2) {
+    -webkit-transition-delay: .125s;
+            transition-delay: .125s; }
+  #menu-toggle.open #hamburger span:nth-child(3) {
+    -webkit-transition-delay: .25s;
+            transition-delay: .25s; }
+#menu-toggle.open #cross span:nth-child(1) {
+  height: 80%;
+  -webkit-transition-delay: .625s;
+          transition-delay: .625s; }
+#menu-toggle.open #cross span:nth-child(2) {
+  width: 80%;
+  -webkit-transition-delay: .375s;
+          transition-delay: .375s; }

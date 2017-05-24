@@ -1,3 +1,7 @@
+$('#menu-toggle').click(function(){
+  $(this).toggleClass('open');
+})
+
 var menuButton = document.querySelector('.buttonMenu');
 
 function toggleVisibility() {
