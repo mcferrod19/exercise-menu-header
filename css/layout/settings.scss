@@ -1,3 +1,5 @@
+$min-screen: 360px;
+$max-screen: 980px;
 * {
     box-sizing: border-box;
 }
@@ -32,22 +34,53 @@
 }
 
 .slideout{
-
   display: flex;
   flex-direction: column;
-
   align-items: flex-end;
 }
 
+.horizontalMenu{
+  display: flex;
+  flex-direction:row;
+  margin-left: 3em;
+}
 
-li{
+ul{
+  padding: 0;
+}
+
+.changecolor2:hover{
+  color:rgb(112, 193, 193);
+}
+
+.changecolor1{
   background-color: rgb(112, 193, 193);
   width: 100%;
   text-align: center;
   border: .1em solid white;
   top: 3em;
   border-radius: .5em;
+
 }
-li:focus{
-  transition: all 300s ease 1s;
+.changecolor1:hover{
+    background-color: rgba(112, 193, 193, 0.2);
+}
+@media screen and (min-width:$min-screen) {
+  .horizontalMenu{
+    display:none;
+  }
+  .menulogo{
+    display:none;
+  }
+}
+@media screen and (min-width:$max-screen) {
+  .horizontalMenu{
+  display: flex;
+  }
+  .menulogo{
+display: flex;
+  }
+  .buttonMenu{
+    display: none;
+  }
 }
