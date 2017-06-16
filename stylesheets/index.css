@@ -1,18 +1,15 @@
 * {
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
-.menulogo {
-  width: 10em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-item-align: center;
-      align-self: center; }
+li {
+  list-style: none; }
 
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+a {
+  font-family: 'Oswald';
+  font-size: 1.5em; }
 
 .container {
   display: -webkit-box;
@@ -22,11 +19,6 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 100%; }
-
-.buttonMenu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
 
 .menu {
   display: -webkit-box;
@@ -111,31 +103,14 @@ ul {
 
   .buttonMenu {
     display: none; } }
-a {
-  font-family: 'Oswald';
-  font-size: 1.5em; }
-
-li {
-  list-style: none; }
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-
 .containerheader {
   background-color: blue;
   height: 20em; }
 
-* {
-  -webkit-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-
 span {
-  display: block;
   background-color: white;
-  border-radius: 2px; }
+  border-radius: 2px;
+  display: block; }
 
 .buttonMenu {
   width: 6em;
@@ -214,3 +189,10 @@ span {
 a {
   text-decoration: none;
   color: white; }
+
+.menulogo {
+  width: 10em;
+  -ms-flex-item-align: center;
+      align-self: center; }
+
+/*# sourceMappingURL=index.css.map */
